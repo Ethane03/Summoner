@@ -27,7 +27,6 @@ public class Summoner
 
     public Summoner() {
         // Register the setup method for modloading
-\
 
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
